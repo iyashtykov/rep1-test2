@@ -697,7 +697,7 @@
    "guidance": "answer and rationale",
    "showGuidanceAfterResponse": false,
    "arePartialPointsAllowed": true,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "previewType": "NONE",
    "points": 100,
    "metadata": {
@@ -782,7 +782,7 @@
    "guidance": "answer and rationale",
    "showGuidanceAfterResponse": true,
    "points": 100,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "metadata": {
     "tags": [
      {
@@ -826,7 +826,7 @@
    "guidance": "answer and rationale",
    "showGuidanceAfterResponse": true,
    "points": 100,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "options": {
     "ignoreCase": false,
     "ignoreWhitespaces": true,

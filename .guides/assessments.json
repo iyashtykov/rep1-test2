@@ -1,0 +1,2273 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-2750589735",
+  "source": {
+   "name": "jslint one case ok",
+   "showName": true,
+   "instructions": "run",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"js_file_jslint_ok.js\"],\"partialPoints\":false,\"maxPoints\":100}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "jslint"
+     },
+     {
+      "name": "Programming Language",
+      "value": "javascript"
+     }
+    ],
+    "files": [
+     "js_file_jslint_ok.js"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2899876268",
+  "source": {
+   "name": "jshint one case ok",
+   "showName": true,
+   "instructions": "run",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jshint\",\"files\":[\"js_file_jshint_ok.js\"],\"partialPoints\":false,\"maxPoints\":100}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "jshint"
+     },
+     {
+      "name": "Programming Language",
+      "value": "javascript"
+     }
+    ],
+    "files": [
+     "js_file_jshint_ok.js"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3522709050",
+  "source": {
+   "name": "python unit test four files partial",
+   "showName": true,
+   "instructions": "run",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"utest_calc_ok.py\",\"utest_calc_failed.py\",\"pythonfolder/utest_calc_ok.py\",\"pythonfolder/utest_calc_failed.py\"],\"partialPoints\":true,\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\"}",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "python utest"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "pythonfolder/__init__.py",
+     "pythonfolder/calc.py",
+     "pythonfolder/utest_calc_failed.py",
+     "pythonfolder/utest_calc_ok.py",
+     "calc.py",
+     "utest_calc_failed.py",
+     "utest_calc_ok.py"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-7899135",
+  "source": {
+   "name": "python unit test one case ok",
+   "showName": true,
+   "instructions": "run forrest run",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"utest_calc_ok.py\"],\"partialPoints\":false,\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\"}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "python unin tests"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "calc.py",
+     "utest_calc_ok.py"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-416679421",
+  "source": {
+   "name": "python style one case ok",
+   "showName": true,
+   "instructions": "run forrest run",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"style\",\"files\":[\"pythonfolder/pythonstyleok1.py\"],\"partialPoints\":false,\"maxPoints\":100}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "python style"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "pythonfolder/pythonstyleok1.py"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-680934443",
+  "source": {
+   "name": "ruby rspec four files partial",
+   "showName": true,
+   "instructions": "test",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"spec/calculator_failed_spec1.rb\",\"spec/calculator_failed_spec2.rb\",\"spec/calculator_ok_spec1.rb\",\"spec/calculator_ok_spec2.rb\"],\"partialPoints\":true,\"maxPoints\":100}",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "ruby rspec"
+     },
+     {
+      "name": "Programming Language",
+      "value": "ruby"
+     }
+    ],
+    "files": [
+     "spec/calculator_failed_spec1.rb",
+     "spec/calculator_failed_spec2.rb",
+     "spec/calculator_ok_spec1.rb",
+     "spec/calculator_ok_spec2.rb",
+     "calculator.rb"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-536955473",
+  "source": {
+   "name": "ruby rspec one case ok",
+   "showName": true,
+   "instructions": "test",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"spec/calculator_ok_spec1.rb\"],\"partialPoints\":false,\"maxPoints\":100}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "ruby rspec"
+     },
+     {
+      "name": "Programming Language",
+      "value": "ruby"
+     }
+    ],
+    "files": [
+     "spec/calculator_ok_spec1.rb",
+     "calculator.rb"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3666559878",
+  "source": {
+   "name": "ruby style one case ok",
+   "showName": true,
+   "instructions": "test",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"style\",\"files\":[\"rubyfolder/rubystyleok1.rb\"],\"partialPoints\":false,\"maxPoints\":100}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "ruby style"
+     },
+     {
+      "name": "Programming Language",
+      "value": "ruby"
+     }
+    ],
+    "files": [
+     "rubyfolder/rubystyleok1.rb"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1516475134",
+  "source": {
+   "name": "java junit partial points two classes",
+   "showName": true,
+   "instructions": "test",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"javafolder/TestCalcManyCasesOk.java\",\"className\":\"TestCalcManyCasesOk\"},{\"filePath\":\"javafolder/TestCalcManyCasesFailed.java\",\"className\":\"TestCalcManyCasesFailed\"}],\"partialPoints\":true,\"maxPoints\":100,\"wd\":\"\",\"sources\":\"\",\"libs\":\"\",\"testsources\":\"javafolder\"}",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "junit"
+     },
+     {
+      "name": "Programming Language",
+      "value": "java"
+     }
+    ],
+    "files": [
+     "javafolder/Calc.java",
+     "javafolder/TestCalcManyCasesFailed.java",
+     "javafolder/TestCalcManyCasesOk.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1604017877",
+  "source": {
+   "name": "java junit one case ok",
+   "showName": true,
+   "instructions": "test",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"javafolder/TestCalcOneCaseOk.java\",\"className\":\"TestCalcOneCaseOk\"}],\"partialPoints\":false,\"maxPoints\":100,\"wd\":\"\",\"sources\":\"\",\"libs\":\"\",\"testsources\":\"javafolder\"}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "junit"
+     },
+     {
+      "name": "Programming Language",
+      "value": "java"
+     }
+    ],
+    "files": [
+     "javafolder/Calc.java",
+     "javafolder/TestCalcOneCaseOk.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3188355957",
+  "source": {
+   "name": "java style one case ok",
+   "showName": true,
+   "instructions": "test",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"style\",\"files\":[\"javafolder/JavaClassStyleOk1.java\"],\"partialPoints\":false,\"maxPoints\":100,\"configFile\":\"\"}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "java style"
+     },
+     {
+      "name": "Programming Language",
+      "value": "java"
+     }
+    ],
+    "files": [
+     "javafolder/JavaClassStyleOk1.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-610337841",
+  "source": {
+   "name": "turtle graphics grader",
+   "showName": true,
+   "instructions": "Construct a program by drag&amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed program should draw a triangle like shown below.",
+   "initial": "REPEAT 3 TIMES\n  forward(100)\n  left(120)\nENDREPEAT\n            ",
+   "options": "{\n               \n              \"max_wrong_lines\": 1,\n              \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n              \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n              \"programmingLang\": \"pseudo\"\n            }",
+   "grader": "5",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "parsons"
+     },
+     {
+      "name": "Programming Language",
+      "value": "parsons"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "5",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-922035714",
+  "source": {
+   "name": "language translation grader 1",
+   "showName": true,
+   "instructions": "Construct code by reordering and indenting the lines.",
+   "initial": "for (int i=0;i<3;i++) {\nSystem.out.print(\\\"I \\\");\nSystem.out.print(\\\"am \\\");\nSystem.out.print(\\\"a Java program \\\");\n}",
+   "options": "{\n                           \n                            \"max_wrong_lines\": 1,\n                            \"vartests\": [{\"initcode\": \"output = ''\", \"code\": \"\", \"message\": \"Testing...\", \"variables\": {\"output\": \"I am a Java program I am a Java program I am a Java program \"}}\n                                ],\n                            \"executable_code\": \"for x in range(3):\\noutput += 'I '\\noutput += 'am '\\noutput += 'a Java program '\\npass\\n\",\n                            \"programmingLang\": \"java\"\n                        }",
+   "grader": "4",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "parsons"
+     },
+     {
+      "name": "Programming Language",
+      "value": "parsons"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2243390891",
+  "source": {
+   "name": "unit tests grader 1",
+   "showName": true,
+   "instructions": "Construct a function which returns the largest of the three given arguments.\n                  You can change the value of a toggleable element (<span class=\"jsparson-toggle\"></span>) by clicking.",
+   "initial": "def find_largest(a, b, c):\nif <span class='jsparson-toggle' data-type='abc'></span> > <span class='jsparson-toggle' data-type='abc'></span>:\nif <span class='jsparson-toggle' data-type='abc'></span> > <span class='jsparson-toggle' data-type='abc'></span>:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\nelse:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\nelif <span class='jsparson-toggle' data-type='abc'></span> > <span class='jsparson-toggle' data-type='abc'></span>:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\nelse:\nreturn <span class='jsparson-toggle' data-type='abc'></span>\n            ",
+   "options": "{\n                            \"sortableId\": \"sortable\",                        \n                                    \"unittests\": \"import unittestparson\\nclass myTests(unittestparson.unittest):\\n  def testOne(self):\\n    self.assertEqual(find_largest(0, 2, 4),4,\\\"Calling function <code>find_largest(0, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(4, 2, 4),4,\\\"Calling function <code>find_largest(4, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(-5, -1, -4),-1,\\\"Calling function <code>find_largest(-5, -1, -4)</code>.\\\")\\n    self.assertEqual(find_largest(7, 2, 4),7,\\\"Calling function <code>find_largest(7, 2, 4)</code>.\\\")\\n_test_result = myTests().main()\",\n                                    \"toggleTypeHandlers\": {\"abc\": [\"a\", \"b\", \"c\"]}\n                        }",
+   "grader": "3",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "parsons"
+     },
+     {
+      "name": "Programming Language",
+      "value": "parsons"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1929622756",
+  "source": {
+   "name": "variable check grader",
+   "showName": true,
+   "instructions": "Construct a program that swaps the values of variables <code>x</code> and <code>y</code> using the\n              helper variable <code>tmp</code>. You can change the names of the variables (<span class=\"jsparson-toggle\"></span>)\n              by clicking them.",
+   "initial": "$$toggle::x::y::tmp$$ = $$toggle::x::y::tmp$$\n$$toggle::x::y::tmp$$ = $$toggle::x::y::tmp$$\n$$toggle::x::y::tmp$$ = $$toggle::x::y::tmp$$\n            ",
+   "options": "{\n                      \n                  \"vartests\": [{\"initcode\": \"x = 0\\ny=2\", \"code\": \"\", \"message\": \"Testing with initial variable values x = 0 and y = 2\", \"variables\": {\"x\": 2}},\n                               {\"initcode\": \"x = 3\\ny=4\\n\", \"code\": \"\", \"message\": \"Testing with initial variable values x = 3 and y = 4\", \"variables\": {\"x\": 4, \"y\": 3}}],\n                  \"lang\": \"en\"\n                }",
+   "grader": "2",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "parsons"
+     },
+     {
+      "name": "Programming Language",
+      "value": "parsons"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-124691793",
+  "source": {
+   "name": "line based grader",
+   "showName": true,
+   "instructions": "<p>Construct a function by drag&amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed function should return True if the parameter is True and\n                        return False otherwise.</p>\n                    <p><strong>Note:</strong> The correct solution is obviously a dumb way to do\n                        it. This exercise is merely trying to give an example of a Parson's\n                        puzzle with js-parsons, not teach you Python :)</p>",
+   "initial": "def is_true(boolean_value):\n  if boolean_value:\n    return True\n  return False\n  return true #distractor\n            ",
+   "options": "{\n              \n              \"trashId\": \"sortableTrash\",\n              \"max_wrong_lines\": 1\n            }",
+   "grader": "1",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "parsons"
+     },
+     {
+      "name": "Programming Language",
+      "value": "parsons"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "grade-book",
+  "taskId": "grade-book-2427660357",
+  "source": {
+   "name": "gradebook2",
+   "showName": true,
+   "isCollapsedOnStart": false,
+   "points": 100,
+   "arePartialPointsAllowed": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Grade Book"
+     },
+     {
+      "name": "Content",
+      "value": "gradebook"
+     },
+     {
+      "name": "Programming Language",
+      "value": "gradebook"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "grade-book",
+  "taskId": "grade-book-1053141",
+  "source": {
+   "name": "gradebook1",
+   "showName": true,
+   "isCollapsedOnStart": false,
+   "points": 100,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Grade Book"
+     },
+     {
+      "name": "Content",
+      "value": "gradebook"
+     },
+     {
+      "name": "Programming Language",
+      "value": "gradebook"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text-auto",
+  "taskId": "free-text-auto-4024036708",
+  "source": {
+   "name": "free text auto partial v1",
+   "showName": true,
+   "instructions": "run",
+   "command": "python freetextauto_partial_v1.py",
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": false,
+   "previewType": "NONE",
+   "points": 100,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text Autograde"
+     },
+     {
+      "name": "Content",
+      "value": "partial"
+     },
+     {
+      "name": "Programming Language",
+      "value": "bash"
+     }
+    ],
+    "files": [
+     "file.js",
+     "partial.sh"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "LEARNING OBJECTIVES"
+  }
+ },
+ {
+  "type": "free-text-auto",
+  "taskId": "free-text-auto-252956828",
+  "source": {
+   "name": "free text auto simple",
+   "showName": true,
+   "instructions": "run",
+   "command": "python freetextauto_simple.py",
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "previewType": "NONE",
+   "points": 100,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text Autograde"
+     }
+    ],
+    "files": [
+     "file.js",
+     "run.sh"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "LEARNING OBJECTIVES"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3999572164",
+  "source": {
+   "name": "advanced code test partial v1",
+   "showName": true,
+   "instructions": "run",
+   "command": "python advanced_partial_v1.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "advanced partial"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "file.js",
+     "advanced.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1650925873",
+  "source": {
+   "name": "standard code test empty output",
+   "showName": true,
+   "instructions": "run",
+   "command": "python empty.py",
+   "preExecuteCommand": "sleep 1",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "",
+     "showFeedback": true,
+     "feedback": "error feedback1"
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "",
+     "showFeedback": true,
+     "feedback": "error feedback2"
+    },
+    {
+     "arguments": "",
+     "input": "1 2 3",
+     "output": "",
+     "showFeedback": true,
+     "feedback": "error feedback3"
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "file.js",
+     "empty.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-272921492",
+  "source": {
+   "name": "standard code test all symbols in output",
+   "showName": true,
+   "instructions": "run",
+   "command": "python allsymbols.py",
+   "preExecuteCommand": "sleep 1",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_-=+<>,./?|[]{};:~`\\",
+     "showFeedback": true,
+     "feedback": "error feedback1"
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_-=+<>,./?|[]{};:~`\\",
+     "showFeedback": true,
+     "feedback": "error feedback2"
+    },
+    {
+     "arguments": "",
+     "input": "input1\ninput2",
+     "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_-=+<>,./?|[]{};:~`\\",
+     "showFeedback": true,
+     "feedback": "error feedback3"
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "file.js",
+     "allsymbols.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-135304776",
+  "source": {
+   "name": "standard code test arguments count in output",
+   "showName": true,
+   "instructions": "run",
+   "command": "python argumentscount.py",
+   "preExecuteCommand": "sleep 1",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "one two three four",
+     "input": "",
+     "output": "5",
+     "showFeedback": true,
+     "feedback": "error feedback1"
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "4",
+     "showFeedback": true,
+     "feedback": "error feedback2"
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "file.js",
+     "argumentscount.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "5",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1532525639",
+  "source": {
+   "name": "standard code test inputs in output",
+   "showName": true,
+   "instructions": "run",
+   "command": "python inputcommands.py",
+   "preExecuteCommand": "sleep 1",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "input1\ninput2",
+     "output": "input1\ninput2",
+     "showFeedback": true,
+     "feedback": "error feedback1"
+    },
+    {
+     "arguments": "",
+     "input": "input1\ninput2\ninput3",
+     "output": "input1\ninput2",
+     "showFeedback": true,
+     "feedback": "error feedback2"
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "file.js",
+     "inputcommands.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1798311137",
+  "source": {
+   "name": "advanced code test simple",
+   "showName": true,
+   "instructions": "run",
+   "command": "python advanced_simple.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 19,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "code test"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [
+     "file.js",
+     "empty.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3216557446",
+  "source": {
+   "name": "fib simple show possible values",
+   "showName": true,
+   "instructions": "run",
+   "text": "0 <<<1>>> 2 <<<3>>> 4 <<<5>>> 6",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 100,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "5",
+   "learningObjectives": "learning",
+   "tokens": {
+    "blank": [
+     "1",
+     "3",
+     "5"
+    ],
+    "text": [
+     "0 ",
+     0,
+     " 2 ",
+     0,
+     " 4 ",
+     0,
+     " 6"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2420836729",
+  "source": {
+   "name": "fib simple do not show possible values",
+   "showName": true,
+   "instructions": "fill in the blank",
+   "text": "0 <<<1>>> 2 <<<3>>> 4 <<<5>>> 6",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 100,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "fib"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "learning",
+   "tokens": {
+    "blank": [
+     "1",
+     "3",
+     "5"
+    ],
+    "text": [
+     "0 ",
+     0,
+     " 2 ",
+     0,
+     " 4 ",
+     0,
+     " 6"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1738770040",
+  "source": {
+   "name": "multichoice one response",
+   "showName": true,
+   "instructions": "run",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "30a1ed6e-98b9-3fd0-3eb5-245cfde23158",
+     "correct": true,
+     "answer": "111 111 111 111 111 111 111"
+    },
+    {
+     "_id": "7db440f4-42da-b699-b718-7a9bfa684605",
+     "correct": false,
+     "answer": "222 222 222 222 222 222 222"
+    },
+    {
+     "_id": "4f993dd8-f738-40e4-9355-f54443886e59",
+     "correct": false,
+     "answer": "333 333 333 333 333 333 333"
+    },
+    {
+     "_id": "aa3b440b-2a35-cc19-2b4a-84639d8ac788",
+     "correct": false,
+     "answer": "444 444 444 444 444 444 444"
+    },
+    {
+     "_id": "f4671d97-118e-2f4e-9b00-4687e41e666e",
+     "correct": false,
+     "answer": "555 555 555 555 555 555 555"
+    }
+   ],
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 100,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "multi"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-445889773",
+  "source": {
+   "name": "multichoice multiple response",
+   "showName": true,
+   "instructions": "run",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "6a9f87b4-a555-a8fb-772e-58b3801bf0f3",
+     "correct": true,
+     "answer": "111 111 111 111 111 111 111"
+    },
+    {
+     "_id": "a84e6222-046c-5a4a-3210-df40ba898684",
+     "correct": true,
+     "answer": "222 222 222 222 222 222 222"
+    },
+    {
+     "_id": "c6344f0b-6c63-8fe7-00b2-3e120226f67c",
+     "correct": false,
+     "answer": "333 333 333 333 333 333 333"
+    },
+    {
+     "_id": "bdadeb57-bfd6-d33c-3e77-26c355ee250b",
+     "correct": false,
+     "answer": "444 444 444 444 444 444 444"
+    },
+    {
+     "_id": "1595a358-f87b-4156-a94b-ff4c49ce3255",
+     "correct": false,
+     "answer": "555 555 555 555 555 555 555"
+    }
+   ],
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 100,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "multi"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3763572986",
+  "source": {
+   "name": "free text partial",
+   "showName": true,
+   "instructions": "run",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "previewType": "RAW",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "points": 100,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     },
+     {
+      "name": "Content",
+      "value": "free text"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1395913156",
+  "source": {
+   "name": "free text simple",
+   "showName": true,
+   "instructions": "run",
+   "guidance": "answer and rationale1",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "points": 100,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     },
+     {
+      "name": "Content",
+      "value": "free text"
+     },
+     {
+      "name": "Programming Language",
+      "value": "any"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "learning"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-557330530",
+  "source": {
+   "name": "fib oneOf show possible values",
+   "showName": true,
+   "instructions": "run",
+   "text": "place1 or \"place1\" or place2 or \"place2\" <<<\"place1\", \"\"place1\"\", \"place2\", \"\"place2\"\">>>\nvalue1 or \"value1\" or value2 or \"value2\" <<<\"value1\", \"\"value1\"\", \"value2\", \"\"value2\"\">>>\n",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 100,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     {
+      "type": "oneOf",
+      "value": [
+       "place1",
+       "\"place1\"",
+       "place2",
+       "\"place2\""
+      ]
+     },
+     {
+      "type": "oneOf",
+      "value": [
+       "value1",
+       "\"value1\"",
+       "value2",
+       "\"value2\""
+      ]
+     }
+    ],
+    "text": [
+     "place1 or \"place1\" or place2 or \"place2\" ",
+     0,
+     "\nvalue1 or \"value1\" or value2 or \"value2\" ",
+     0,
+     "\n"
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2164478132",
+  "source": {
+   "name": "fib oneOf do not show possible values",
+   "showName": true,
+   "instructions": "run",
+   "text": "place1 or \"place1\" or place2 or \"place2\" <<<\"place1\", \"\"place1\"\", \"place2\", \"\"place2\"\">>>\nvalue1 or \"value1\" or value2 or \"value2\" <<<\"value1\", \"\"value1\"\", \"value2\", \"\"value2\"\">>>",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 100,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     {
+      "type": "oneOf",
+      "value": [
+       "place1",
+       "\"place1\"",
+       "place2",
+       "\"place2\""
+      ]
+     },
+     {
+      "type": "oneOf",
+      "value": [
+       "value1",
+       "\"value1\"",
+       "value2",
+       "\"value2\""
+      ]
+     }
+    ],
+    "text": [
+     "place1 or \"place1\" or place2 or \"place2\" ",
+     0,
+     "\nvalue1 or \"value1\" or value2 or \"value2\" ",
+     0
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1045584002",
+  "source": {
+   "name": "fib regex",
+   "showName": true,
+   "instructions": "run",
+   "text": "color or colour - <<</colou?r/>>>\nfrom 1 to 100 - <<</^([1-9][0-9]?|100)$/>>>\ngmail check - <<</(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/>>>\nstart from word \"begin\" - <<</^begin/>>>\nends with word \"end\" - <<</end$/>>> ",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 100,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     {
+      "type": "regEx",
+      "value": "/colou?r/"
+     },
+     {
+      "type": "regEx",
+      "value": "/^([1-9][0-9]?|100)$/"
+     },
+     {
+      "type": "regEx",
+      "value": "/(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/"
+     },
+     {
+      "type": "regEx",
+      "value": "/^begin/"
+     },
+     {
+      "type": "regEx",
+      "value": "/end$/"
+     }
+    ],
+    "text": [
+     "color or colour - ",
+     0,
+     "\nfrom 1 to 100 - ",
+     0,
+     "\ngmail check - ",
+     0,
+     "\nstart from word \"begin\" - ",
+     0,
+     "\nends with word \"end\" - ",
+     0,
+     " "
+    ],
+    "regexPositions": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1034057722",
+  "source": {
+   "name": "advanced code test partial v2 default format",
+   "showName": true,
+   "instructions": "run",
+   "command": "python default_format_partial_v2.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1575987488",
+  "source": {
+   "name": "advanced code test html partial v2",
+   "showName": true,
+   "instructions": "run",
+   "command": "python html_partial_v2.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2544594776",
+  "source": {
+   "name": "advanced code test md partial v2",
+   "showName": true,
+   "instructions": "run",
+   "command": "python md_partial_v2.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-287466350",
+  "source": {
+   "name": "advanced code test txt partial v2",
+   "showName": true,
+   "instructions": "run",
+   "command": "python txt_partial_v2.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text-auto",
+  "taskId": "free-text-auto-2980779615",
+  "source": {
+   "name": "free text auto partial v2",
+   "showName": true,
+   "instructions": "run",
+   "command": "python freetextauto_partial_v2.py",
+   "timeoutSeconds": 40,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": false,
+   "previewType": "NONE",
+   "points": 100,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text Autograde"
+     }
+    ],
+    "files": [
+     "file.js"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "file.js"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-145385884",
+  "source": {
+   "name": "standard partial empty output",
+   "showName": true,
+   "instructions": "run",
+   "command": "python standard_partial_empty.py",
+   "preExecuteCommand": "",
+   "arePartialPointsAllowed": true,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "test",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1 2 3",
+     "output": "",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2",
+     "input": "",
+     "output": "test",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1 2",
+     "output": "test",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-364020762",
+  "source": {
+   "name": "standard partial all symbols",
+   "showName": true,
+   "instructions": "run",
+   "command": "python standard_partial_allsymbols.py",
+   "preExecuteCommand": "",
+   "arePartialPointsAllowed": true,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_-=+<>,./?|[]{};:~`\\",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_-=+<>,./?|[]{};:~`\\",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1 2",
+     "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_-=+<>,./?|[]{};:~`\\",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2",
+     "input": "",
+     "output": "test",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1 2",
+     "output": "test",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1\n2",
+     "output": "test",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "test",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3793267654",
+  "source": {
+   "name": "standard partial arguments count",
+   "showName": true,
+   "instructions": "run",
+   "command": "python standard_partial_argumentscount.py",
+   "preExecuteCommand": "",
+   "arePartialPointsAllowed": true,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "one two three four",
+     "input": "",
+     "output": "5",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2 3",
+     "input": "",
+     "output": "4",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1 2 3 4 5",
+     "input": "",
+     "output": "10",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1",
+     "input": "",
+     "output": "4",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1",
+     "input": "",
+     "output": "4",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3689217873",
+  "source": {
+   "name": "standard partial inputs in output",
+   "showName": true,
+   "instructions": "run",
+   "command": "python standard_partial_inputcommands.py",
+   "preExecuteCommand": "",
+   "arePartialPointsAllowed": true,
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": true,
+   "points": 100,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "input1\ninput2",
+     "output": "input1\ninput2",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "input1\ninput2\ninput3",
+     "output": "input1\ninput2",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "input1\ninput2\ninput3",
+     "output": "input1\ninput2\ninput3",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "input1\ninput2\ninput3",
+     "output": "input1\ninput2\ninput3",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "input1\ninput2\ninput3",
+     "output": "input1\ninput2\ninput3",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-573761361",
+  "source": {
+   "name": "free text with predefined rubrics",
+   "showName": true,
+   "instructions": "run",
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponse": false,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": false,
+   "points": 100,
+   "rubrics": [
+    {
+     "id": "16578323-24c3-9bc1-e1b4-3e92e290b3d7",
+     "weight": 10,
+     "message": "-10 predefined points in free text"
+    },
+    {
+     "id": "45f0d96e-3c02-8591-c4b6-cd58bd65471d",
+     "weight": 20,
+     "message": "-20 predefined points in free text"
+    },
+    {
+     "id": "67f42e77-431a-6a27-92b2-636cba3e5b3f",
+     "weight": 30,
+     "message": "-30 predefined points in free text"
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "grade-book",
+  "taskId": "grade-book-3769268793",
+  "source": {
+   "name": "gradebook3 with predefined rubrics",
+   "showName": true,
+   "isCollapsedOnStart": false,
+   "points": 100,
+   "arePartialPointsAllowed": true,
+   "rubrics": [
+    {
+     "id": "fae170fa-2d0b-912e-2381-5941c9aa8c96",
+     "weight": 5,
+     "message": "-5 predefined points in gradebook"
+    },
+    {
+     "id": "7efcdd4a-d3e4-8f0b-2831-42e04cd1b52f",
+     "weight": 15,
+     "message": "-15 predefined points in gradebook"
+    },
+    {
+     "id": "708ce97f-dcda-4f14-a72a-e403cbca14bf",
+     "weight": 25,
+     "message": "-25 predefined points in gradebook"
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Grade Book"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

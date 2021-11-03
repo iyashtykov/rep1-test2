@@ -1,0 +1,16 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Node version": "node --version"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",        
+        "Box URL": "https://{{domain3000}}/"
+  },
+  "autogradeTestScripts": [".guides/scripts/example.sh",".guides/scripts/example.py",".guides/secure/example.py",".guides/secure/example.sh",".guides/scripts_v2/default_format_example.py",".guides/scripts_v2/html_example.py",".guides/scripts_v2/md_example.py",".guides/scripts_v2/txt_example.py",".guides/secure/example_v2.py"]
+}

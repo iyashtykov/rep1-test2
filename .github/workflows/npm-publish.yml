@@ -1,0 +1,28 @@
+name: codio-publish
+on:
+  push:
+    branches:
+      - split
+
+jobs:
+
+  publish: 
+    runs-on: ubuntu-20.04
+    steps:
+    
+      - uses: actions/checkout@v2
+      
+      - name: Cleanup
+        run: rm -rf README.md
+      
+      - name: Publish to Codio
+        uses: codio/codio-assignment-publish-action@master
+        
+        with:
+          client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
+          secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
+          course-id: 1a6dd23261de591822b3073056935856
+          dir: ./
+          yml: .guides/yaml_map
+          changelog: ${{ github.event.head_commit.message }}
+          domain: test2-codio.com

@@ -11,7 +11,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -35,7 +34,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -50,7 +52,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -74,7 +75,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -89,7 +93,6 @@
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -119,7 +122,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -134,7 +140,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -159,7 +164,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -174,7 +182,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -198,7 +205,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -213,7 +223,6 @@
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -241,7 +250,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -256,7 +268,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -281,7 +292,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -296,7 +310,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -320,7 +333,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -335,7 +351,6 @@
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -361,7 +376,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -376,7 +394,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -401,7 +418,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -416,7 +436,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 300,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -440,7 +459,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -454,7 +476,6 @@
    "options": "{\n               \n              \"max_wrong_lines\": 1,\n              \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n              \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n              \"programmingLang\": \"pseudo\"\n            }",
    "grader": "5",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -476,7 +497,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -490,7 +514,6 @@
    "options": "{\n                           \n                            \"max_wrong_lines\": 1,\n                            \"vartests\": [{\"initcode\": \"output = ''\", \"code\": \"\", \"message\": \"Testing...\", \"variables\": {\"output\": \"I am a Java program I am a Java program I am a Java program \"}}\n                                ],\n                            \"executable_code\": \"for x in range(3):\\noutput += 'I '\\noutput += 'am '\\noutput += 'a Java program '\\npass\\n\",\n                            \"programmingLang\": \"java\"\n                        }",
    "grader": "4",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -512,7 +535,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -526,7 +552,6 @@
    "options": "{\n                            \"sortableId\": \"sortable\",                        \n                                    \"unittests\": \"import unittestparson\\nclass myTests(unittestparson.unittest):\\n  def testOne(self):\\n    self.assertEqual(find_largest(0, 2, 4),4,\\\"Calling function <code>find_largest(0, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(4, 2, 4),4,\\\"Calling function <code>find_largest(4, 2, 4)</code>.\\\")\\n    self.assertEqual(find_largest(-5, -1, -4),-1,\\\"Calling function <code>find_largest(-5, -1, -4)</code>.\\\")\\n    self.assertEqual(find_largest(7, 2, 4),7,\\\"Calling function <code>find_largest(7, 2, 4)</code>.\\\")\\n_test_result = myTests().main()\",\n                                    \"toggleTypeHandlers\": {\"abc\": [\"a\", \"b\", \"c\"]}\n                        }",
    "grader": "3",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -548,7 +573,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -562,7 +590,6 @@
    "options": "{\n                      \n                  \"vartests\": [{\"initcode\": \"x = 0\\ny=2\", \"code\": \"\", \"message\": \"Testing with initial variable values x = 0 and y = 2\", \"variables\": {\"x\": 2}},\n                               {\"initcode\": \"x = 3\\ny=4\\n\", \"code\": \"\", \"message\": \"Testing with initial variable values x = 3 and y = 4\", \"variables\": {\"x\": 4, \"y\": 3}}],\n                  \"lang\": \"en\"\n                }",
    "grader": "2",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -584,7 +611,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -598,7 +628,6 @@
    "options": "{\n              \n              \"trashId\": \"sortableTrash\",\n              \"max_wrong_lines\": 1\n            }",
    "grader": "1",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -620,7 +649,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -651,7 +683,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -682,7 +717,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "1",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -695,7 +733,6 @@
    "command": "python freetextauto_partial_v1.py",
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "arePartialPointsAllowed": true,
    "oneTimeTest": true,
    "previewType": "NONE",
@@ -728,7 +765,10 @@
     ]
    },
    "bloomsObjectiveLevel": "6",
-   "learningObjectives": "LEARNING OBJECTIVES"
+   "learningObjectives": "LEARNING OBJECTIVES",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -741,7 +781,6 @@
    "command": "python freetextauto_simple.py",
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
    "previewType": "NONE",
@@ -766,7 +805,10 @@
     ]
    },
    "bloomsObjectiveLevel": "6",
-   "learningObjectives": "LEARNING OBJECTIVES"
+   "learningObjectives": "LEARNING OBJECTIVES",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -780,7 +822,6 @@
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": true,
    "metadata": {
@@ -811,7 +852,10 @@
     ]
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -824,7 +868,6 @@
    "command": "python empty.py",
    "preExecuteCommand": "sleep 1",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": true,
    "options": {
@@ -886,7 +929,10 @@
     ]
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -898,18 +944,21 @@
    "instructions": "run",
    "command": "python allsymbols.py",
    "preExecuteCommand": "sleep 1",
-   "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
-   "points": 100,
-   "oneTimeTest": false,
    "options": {
+    "timeout": 30,
     "ignoreCase": true,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
-    "timeout": 30
+    "matchSubstring": false
    },
+   "guidance": "answer and rationale",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
+   "maxAttemptsCount": 5,
+   "points": 100,
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -952,13 +1001,7 @@
      "file.js",
      "allsymbols.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "learning"
@@ -974,7 +1017,6 @@
    "command": "python argumentscount.py",
    "preExecuteCommand": "sleep 1",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": true,
    "options": {
@@ -1029,7 +1071,10 @@
     ]
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1042,7 +1087,6 @@
    "command": "python inputcommands.py",
    "preExecuteCommand": "sleep 1",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
    "options": {
@@ -1097,7 +1141,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1111,7 +1158,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 19,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -1142,7 +1188,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1154,7 +1203,6 @@
    "instructions": "run",
    "text": "0 <<<1>>> 2 <<<3>>> 4 <<<5>>> 6",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 100,
    "showValues": true,
@@ -1202,6 +1250,9 @@
      " 6"
     ],
     "regexPositions": []
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1214,7 +1265,6 @@
    "instructions": "fill in the blank",
    "text": "0 <<<1>>> 2 <<<3>>> 4 <<<5>>> 6",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 100,
    "showValues": false,
@@ -1262,6 +1312,9 @@
      " 6"
     ],
     "regexPositions": []
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1301,7 +1354,6 @@
     }
    ],
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "showExpectedAnswer": true,
    "points": 100,
    "incorrectPoints": 0,
@@ -1332,7 +1384,10 @@
     ]
    },
    "bloomsObjectiveLevel": "6",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -1371,7 +1426,6 @@
     }
    ],
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "showExpectedAnswer": true,
    "points": 100,
    "incorrectPoints": 0,
@@ -1402,7 +1456,10 @@
     ]
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -1413,7 +1470,6 @@
    "showName": true,
    "instructions": "run",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "previewType": "RAW",
    "arePartialPointsAllowed": true,
    "oneTimeTest": true,
@@ -1445,7 +1501,10 @@
     ]
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1456,7 +1515,6 @@
    "showName": true,
    "instructions": "run",
    "guidance": "answer and rationale1",
-   "showGuidanceAfterResponse": true,
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
@@ -1488,7 +1546,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "learning"
+   "learningObjectives": "learning",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1500,7 +1561,6 @@
    "instructions": "run",
    "text": "place1 or \"place1\" or place2 or \"place2\" <<<\"place1\", \"\"place1\"\", \"place2\", \"\"place2\"\">>>\nvalue1 or \"value1\" or value2 or \"value2\" <<<\"value1\", \"\"value1\"\", \"value2\", \"\"value2\"\">>>\n",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "showExpectedAnswer": true,
    "points": 100,
    "showValues": true,
@@ -1553,6 +1613,9 @@
      "\n"
     ],
     "regexPositions": []
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
    }
   }
  },
@@ -1565,7 +1628,6 @@
    "instructions": "run",
    "text": "place1 or \"place1\" or place2 or \"place2\" <<<\"place1\", \"\"place1\"\", \"place2\", \"\"place2\"\">>>\nvalue1 or \"value1\" or value2 or \"value2\" <<<\"value1\", \"\"value1\"\", \"value2\", \"\"value2\"\">>>",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "showExpectedAnswer": true,
    "points": 100,
    "showValues": false,
@@ -1617,6 +1679,9 @@
      0
     ],
     "regexPositions": []
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
    }
   }
  },
@@ -1629,7 +1694,6 @@
    "instructions": "run",
    "text": "color or colour - <<</colou?r/>>>\nfrom 1 to 100 - <<</^([1-9][0-9]?|100)$/>>>\ngmail check - <<</(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/>>>\nstart from word \"begin\" - <<</^begin/>>>\nends with word \"end\" - <<</end$/>>> ",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "showExpectedAnswer": true,
    "points": 100,
    "showValues": false,
@@ -1696,6 +1760,9 @@
      3,
      4
     ]
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
    }
   }
  },
@@ -1707,12 +1774,14 @@
    "showName": true,
    "instructions": "run",
    "command": "python default_format_partial_v2.py",
-   "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 5,
    "points": 100,
-   "oneTimeTest": false,
+   "arePartialPointsAllowed": true,
    "metadata": {
     "tags": [
      {
@@ -1723,13 +1792,7 @@
     "files": [
      "file.js"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
@@ -1746,7 +1809,6 @@
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -1768,7 +1830,10 @@
     ]
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -1782,7 +1847,6 @@
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -1804,7 +1868,10 @@
     ]
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -1818,7 +1885,6 @@
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
    "points": 100,
    "oneTimeTest": false,
    "metadata": {
@@ -1840,7 +1906,10 @@
     ]
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -1853,9 +1922,11 @@
    "command": "python freetextauto_partial_v2.py",
    "timeoutSeconds": 40,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 5,
    "arePartialPointsAllowed": true,
-   "oneTimeTest": false,
    "previewType": "NONE",
    "points": 100,
    "metadata": {
@@ -1868,13 +1939,7 @@
     "files": [
      "file.js"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "file.js"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
@@ -1891,7 +1956,6 @@
    "preExecuteCommand": "",
    "arePartialPointsAllowed": true,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
    "options": {
@@ -1950,7 +2014,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1964,7 +2031,6 @@
    "preExecuteCommand": "",
    "arePartialPointsAllowed": true,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
    "options": {
@@ -2037,7 +2103,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -2051,7 +2120,6 @@
    "preExecuteCommand": "",
    "arePartialPointsAllowed": true,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
    "options": {
@@ -2110,7 +2178,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -2124,7 +2195,6 @@
    "preExecuteCommand": "",
    "arePartialPointsAllowed": true,
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
    "options": {
@@ -2183,7 +2253,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -2194,10 +2267,12 @@
    "showName": true,
    "instructions": "run",
    "guidance": "answer and rationale",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 5,
    "previewType": "NONE",
    "arePartialPointsAllowed": true,
-   "oneTimeTest": false,
    "points": 100,
    "rubrics": [
     {
@@ -2267,7 +2342,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  }
 ]

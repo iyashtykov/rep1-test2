@@ -16,7 +16,7 @@ jobs:
         run: rm -rf README.md
       
       - name: Publish to Codio
-        uses: codio/codio-assignment-publish-action@6ead25d945726026c2a46d777b9b453d107a9354
+        uses: codio/codio-assignment-publish-action@5e7157d7543f44a31ccdbf966b863944250b54a4
         
         with:
           client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}

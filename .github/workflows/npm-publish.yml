@@ -26,7 +26,8 @@ jobs:
           # course-name: github actions
           # assignment-name: assignment4
           course-name: русский курс
-          assignment-name: ассаймент 1
+          # assignment-name: ассаймент 1
+          assignment-id: 953e02c08f6c3d91a06aa81e65807d1a
           dir: ./
           # yml: .guides/yaml_map
           changelog: ${{ github.event.head_commit.message }}

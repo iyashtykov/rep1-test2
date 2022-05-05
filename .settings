@@ -1,5 +1,6 @@
 [editor]
 tab_size = 2
+spellcheck = false
 ; enter your editor preferences here...
 
 [view-javascript-code]

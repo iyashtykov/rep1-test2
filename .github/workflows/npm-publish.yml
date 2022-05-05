@@ -25,7 +25,7 @@ jobs:
           # assignment-id: 0728352b03fe5d50fdaeb91898d54a17
           # course-name: github actions
           # assignment-name: ассаймент 5
-          course-name: 'русский'
+          course-name: "русский"
           assignment-name: ассаймент 1
           dir: ./
           # yml: .guides/yaml_map

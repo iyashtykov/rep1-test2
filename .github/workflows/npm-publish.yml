@@ -23,8 +23,10 @@ jobs:
           secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
           # course-id: 1a6dd23261de591822b3073056935856
           # assignment-id: 0728352b03fe5d50fdaeb91898d54a17
-          course-name: Github actions
-          assignment-name: assignment1
+          # course-name: github actions
+          # assignment-name: assignment1
+          course-name: русский
+          assignment-name: ассаймент 1
           dir: ./
           # yml: .guides/yaml_map
           changelog: ${{ github.event.head_commit.message }}

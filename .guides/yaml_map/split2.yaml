@@ -1,5 +1,5 @@
 # - assignment: 23d796c76b72be278b8b64044dbb203d
-# - assignmentName: assignment2
-- assignmentName: ассаймент 2
+- assignmentName: assignment2
+# - assignmentName: ассаймент 2
   paths: ['free/*']
   section: ['Free texts']

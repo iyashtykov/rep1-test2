@@ -16,7 +16,7 @@ jobs:
         run: rm -rf README.md
       
       - name: Publish to Codio
-        uses: codio/codio-assignment-publish-action@e7f0b1eeea43121f7a7ecf8092e02c9c8e18dafd
+        uses: codio/codio-assignment-publish-action@eeafa8fa3d40d1b9ab7f0c09b0e95b11bfe1eb51
         
         with:
           client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
@@ -26,7 +26,7 @@ jobs:
           # course-name: github actions
           # assignment-name: assignment1
           course-name: русский
-          assignment-name: ассаймент 1
+          assignment-name: ассаймент 11
           dir: ./
           # yml: .guides/yaml_map
           changelog: ${{ github.event.head_commit.message }}

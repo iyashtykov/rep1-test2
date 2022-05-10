@@ -25,7 +25,6 @@ jobs:
           # assignment-id: 0728352b03fe5d50fdaeb91898d54a17
           course-name: github actions
           assignment-name: assignment4
-          
           # course-name: русский
           # assignment-name: ассаймент 1
           dir: ./

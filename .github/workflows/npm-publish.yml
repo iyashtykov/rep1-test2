@@ -16,15 +16,15 @@ jobs:
         run: rm -rf README.md
       
       - name: Publish to Codio
-        uses: codio/codio-assignment-publish-action@eeafa8fa3d40d1b9ab7f0c09b0e95b11bfe1eb51
+        uses: codio/codio-assignment-publish-action@5e9d1a9f71fea333faf138127dea9fdec50932d9
         
         with:
           client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
           secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
           # course-id: 1a6dd23261de591822b3073056935856
-          assignment-id: 0728352b03fe5d50fdaeb91898d54a17
+          # assignment-id: 0728352b03fe5d50fdaeb91898d54a17
           course-name: github actions
-          # assignment-name: assignment4
+          assignment-name: assignment4
           # course-name: русский
           # assignment-name: ассаймент 1
           dir: ./

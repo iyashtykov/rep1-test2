@@ -1,4 +1,4 @@
 # - assignment: d0974ea6557b23b9c6715b50bbbc04fc
-- assignmentName: assignment11
+- assignmentName: assignment1
   paths: ['javafolder/**', 'rubyfolder/**', 'pythonfolder/**']
   section: ['Code tests']

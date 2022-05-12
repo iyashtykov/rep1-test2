@@ -26,6 +26,6 @@ jobs:
           assignment-name: assignment4
           
           dir: ./
-          yml: .guides/yaml_map
+          # yml: .guides/yaml_map
           changelog: ${{ github.event.head_commit.message }}
           domain: test2-codio.com

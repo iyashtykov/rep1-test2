@@ -7,6 +7,6 @@
   paths: []
   section: ["!@#$%^&*()_+"]
 
-- assignmentName: assignment4
-  paths: []
-  section: ["!@#$%^&*()_+"]
+- assignmentName: assignment3
+  paths: ['javafolder/**', 'rubyfolder/**', 'pythonfolder/**']
+  section: ['Code tests']

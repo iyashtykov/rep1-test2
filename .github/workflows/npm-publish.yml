@@ -2,10 +2,9 @@ name: codio-publish
 on:
   push:
     branches:
-      - master
+      - names
 
 jobs:
-
   publish: 
     runs-on: ubuntu-20.04
     steps:
@@ -16,12 +15,16 @@ jobs:
         run: rm -rf README.md
       
       - name: Publish to Codio
-        uses: codio/codio-assignment-publish-action@master
+        uses: codio/codio-assignment-publish-action@c4fb706f3495ae74a51f9da3641bcb8e247a59fb
         
         with:
           client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
           secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
           course-id: 1a6dd23261de591822b3073056935856
+          # assignment-id: 0728352b03fe5d50fdaeb91898d54a17
+          # course-name: github actions
+          # assignment-name: assignment4
+          
           dir: ./
           yml: .guides/yaml_map
           changelog: ${{ github.event.head_commit.message }}

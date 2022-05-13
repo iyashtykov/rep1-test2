@@ -4,6 +4,7 @@
    "id": "83a97204-cf44-4e41-24fe-94a8003bc862",
    "title": "advanced code tests",
    "files": [],
+   "layout": "undefined",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/advanced-code-tests-83a9.md",
@@ -141,7 +142,7 @@
  "hideMenu": false,
  "allowGuideClose": false,
  "collapsedOnStart": false,
- "hideSectionsToggle": true,
+ "hideSectionsToggle": false,
  "hideBackToDashboard": false,
  "protectLayout": false
 }

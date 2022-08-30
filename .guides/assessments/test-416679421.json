@@ -1,0 +1,41 @@
+{
+  "source": {
+    "arePartialPointsAllowed": false,
+    "bloomsObjectiveLevel": "3",
+    "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"style\",\"files\":[\"pythonfolder/pythonstyleok1.py\"],\"partialPoints\":false,\"maxPoints\":100}",
+    "command": "python /usr/share/codio/assessments/assessments.py",
+    "guidance": "answer and rationale",
+    "instructions": "run forrest run",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [
+        "pythonfolder/pythonstyleok1.py"
+      ],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Advanced Code Test"
+        },
+        {
+          "name": "Content",
+          "value": "python style"
+        },
+        {
+          "name": "Programming Language",
+          "value": "python"
+        }
+      ]
+    },
+    "name": "python style one case ok",
+    "oneTimeTest": false,
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true,
+    "timeoutSeconds": 300
+  },
+  "taskId": "test-416679421",
+  "type": "test"
+}

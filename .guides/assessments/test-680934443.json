@@ -1,0 +1,45 @@
+{
+  "source": {
+    "arePartialPointsAllowed": true,
+    "bloomsObjectiveLevel": "3",
+    "codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"spec/calculator_failed_spec1.rb\",\"spec/calculator_failed_spec2.rb\",\"spec/calculator_ok_spec1.rb\",\"spec/calculator_ok_spec2.rb\"],\"partialPoints\":true,\"maxPoints\":100}",
+    "command": "python /usr/share/codio/assessments/assessments.py",
+    "guidance": "answer and rationale",
+    "instructions": "test",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [
+        "spec/calculator_failed_spec1.rb",
+        "spec/calculator_failed_spec2.rb",
+        "spec/calculator_ok_spec1.rb",
+        "spec/calculator_ok_spec2.rb",
+        "calculator.rb"
+      ],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Advanced Code Test"
+        },
+        {
+          "name": "Content",
+          "value": "ruby rspec"
+        },
+        {
+          "name": "Programming Language",
+          "value": "ruby"
+        }
+      ]
+    },
+    "name": "ruby rspec four files partial",
+    "oneTimeTest": false,
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true,
+    "timeoutSeconds": 300
+  },
+  "taskId": "test-680934443",
+  "type": "test"
+}

@@ -2,7 +2,7 @@ name: codio-publish
 on:
   push:
     branches:
-      - master
+      - guides_v3
 
 jobs:
 

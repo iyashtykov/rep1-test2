@@ -3,7 +3,7 @@
 	"collapsedOnStart": false,
 	"hideBackToDashboard": false,
 	"hideMenu": false,
-	"hideSectionsToggle": true,
+	"hideSectionsToggle": false,
 	"lexikonTopic": "",
 	"order": [
 		"Code-tests-d101",
@@ -14,13 +14,15 @@
 		"-----------------842c",
 		"example-page-e038",
 		"New-Page-ba23",
+		"chapter-4d8b",
 		"New-0b55",
 		"simple-section-4cfe",
-		"simple-chapter-168c"
+		"simple-chapter-168c",
+		"c1-93e1"
 	],
 	"protectLayout": false,
 	"scripts": [],
-	"suppressPageNumbering": true,
+	"suppressPageNumbering": false,
 	"theme": "light",
 	"title": "rep1",
 	"useMarkAsComplete": true,

@@ -1,8 +1,9 @@
-# - assignment: d0974ea6557b23b9c6715b50bbbc04fc
-#   paths: ['javafolder/**', 'rubyfolder/**']
-#   section: ['example page']
-
 - assignmentName: assignment1
   paths: 
     - calc.py
   section: New Page
+
+# - assignment: d0974ea6557b23b9c6715b50bbbc04fc
+#   paths: ['javafolder/**', 'rubyfolder/**']
+#   section: ['example page']
+

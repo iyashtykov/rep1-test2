@@ -1,0 +1,70 @@
+{
+  "source": {
+    "bloomsObjectiveLevel": "2",
+    "command": "python inputcommands.py",
+    "guidance": "answer and rationale",
+    "instructions": "run",
+    "learningObjectives": "learning",
+    "metadata": {
+      "files": [
+        "file.js",
+        "inputcommands.py"
+      ],
+      "opened": [
+        {
+          "content": "file.js",
+          "panelNumber": 0,
+          "type": "file"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Standard Code Test"
+        },
+        {
+          "name": "Content",
+          "value": "code test"
+        },
+        {
+          "name": "Programming Language",
+          "value": "python"
+        }
+      ]
+    },
+    "name": "standard code test inputs in output",
+    "oneTimeTest": false,
+    "options": {
+      "ignoreCase": false,
+      "ignoreNewline": true,
+      "ignoreWhitespaces": true,
+      "matchSubstring": false,
+      "timeout": 30
+    },
+    "points": 100,
+    "preExecuteCommand": "sleep 1",
+    "sequence": [
+      {
+        "arguments": "",
+        "feedback": "error feedback1",
+        "input": "input1\ninput2",
+        "output": "input1\ninput2",
+        "showFeedback": true
+      },
+      {
+        "arguments": "",
+        "feedback": "error feedback2",
+        "input": "input1\ninput2\ninput3",
+        "output": "input1\ninput2",
+        "showFeedback": true
+      }
+    ],
+    "showExpectedAnswer": true,
+    "showGuidanceAfterResponseOption": {
+      "type": "Always"
+    },
+    "showName": true
+  },
+  "taskId": "code-output-compare-1532525639",
+  "type": "code-output-compare"
+}

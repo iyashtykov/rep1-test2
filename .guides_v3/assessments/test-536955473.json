@@ -1,0 +1,42 @@
+{
+  "source": {
+    "arePartialPointsAllowed": false,
+    "bloomsObjectiveLevel": "3",
+    "codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"rspec\",\"files\":[\"spec/calculator_ok_spec1.rb\"],\"partialPoints\":false,\"maxPoints\":100}",
+    "command": "python /usr/share/codio/assessments/assessments.py",
+    "guidance": "answer and rationale",
+    "instructions": "test",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [
+        "spec/calculator_ok_spec1.rb",
+        "calculator.rb"
+      ],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Advanced Code Test"
+        },
+        {
+          "name": "Content",
+          "value": "ruby rspec"
+        },
+        {
+          "name": "Programming Language",
+          "value": "ruby"
+        }
+      ]
+    },
+    "name": "ruby rspec one case ok",
+    "oneTimeTest": false,
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true,
+    "timeoutSeconds": 300
+  },
+  "taskId": "test-536955473",
+  "type": "test"
+}

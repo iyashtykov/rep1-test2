@@ -1,0 +1,38 @@
+{
+  "source": {
+    "bloomsObjectiveLevel": "5",
+    "grader": "5",
+    "guidance": "answer and rationale",
+    "initial": "REPEAT 3 TIMES\n  forward(100)\n  left(120)\nENDREPEAT\n            ",
+    "instructions": "Construct a program by drag\u0026amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed program should draw a triangle like shown below.",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Parsons Puzzle"
+        },
+        {
+          "name": "Content",
+          "value": "parsons"
+        },
+        {
+          "name": "Programming Language",
+          "value": "parsons"
+        }
+      ]
+    },
+    "name": "turtle graphics grader",
+    "oneTimeTest": false,
+    "options": "{\n               \n              \"max_wrong_lines\": 1,\n              \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n              \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n              \"programmingLang\": \"pseudo\"\n            }",
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true
+  },
+  "taskId": "parsons-puzzle-610337841",
+  "type": "parsons-puzzle"
+}

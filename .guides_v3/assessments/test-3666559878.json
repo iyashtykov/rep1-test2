@@ -1,0 +1,41 @@
+{
+  "source": {
+    "arePartialPointsAllowed": false,
+    "bloomsObjectiveLevel": "4",
+    "codeEnvConfig": "{\"type\":\"ruby\",\"subtype\":\"style\",\"files\":[\"rubyfolder/rubystyleok1.rb\"],\"partialPoints\":false,\"maxPoints\":100}",
+    "command": "python /usr/share/codio/assessments/assessments.py",
+    "guidance": "answer and rationale",
+    "instructions": "test",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [
+        "rubyfolder/rubystyleok1.rb"
+      ],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Advanced Code Test"
+        },
+        {
+          "name": "Content",
+          "value": "ruby style"
+        },
+        {
+          "name": "Programming Language",
+          "value": "ruby"
+        }
+      ]
+    },
+    "name": "ruby style one case ok",
+    "oneTimeTest": false,
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true,
+    "timeoutSeconds": 300
+  },
+  "taskId": "test-3666559878",
+  "type": "test"
+}

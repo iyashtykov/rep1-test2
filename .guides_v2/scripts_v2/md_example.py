@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import random
-import requests
 import json
 # import grade submit function
 import sys
@@ -12,15 +11,15 @@ def main():
   # Execute the test on the student's code
   grade = random.randint(10, 100)
   
-  feedback = ''  
-  file_name = '/home/codio/workspace/read.html'  
-  with open(file_name, 'r') as file:
-    feedback = file.read()
+  feedback = '## markdown text'  
+  # file_name = '/home/codio/workspace/read.md'  
+  # with open(file_name, 'r') as file:
+  #   feedback = file.read()
   
   
   # Send the grade back to Codio with the penatly factor applied
   
-  res = send_grade_v2(int(round(grade)), feedback, FORMAT_V2_HTML)
+  res = send_grade_v2(int(round(grade)), feedback, FORMAT_V2_MD)
   print(CODIO_UNIT_DATA)
   exit( 0 if res else 1)
   

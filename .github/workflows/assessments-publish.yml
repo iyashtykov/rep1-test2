@@ -21,6 +21,7 @@ jobs:
         with:
           client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
           secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
-          library-id: bd8cc78a-631d-41eb-a5fc-d5374d6a920d
+          # library-id: bd8cc78a-631d-41eb-a5fc-d5374d6a920d
+          library-id: baf2bcc5-ec26-47d2-9bcf-be9f5d33b81b
           dir: ./                       
           domain: test2-codio.com

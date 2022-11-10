@@ -1,0 +1,47 @@
+{
+  "source": {
+    "arePartialPointsAllowed": true,
+    "bloomsObjectiveLevel": "1",
+    "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"utest_calc_ok.py\",\"utest_calc_failed.py\",\"pythonfolder/utest_calc_ok.py\",\"pythonfolder/utest_calc_failed.py\"],\"partialPoints\":true,\"maxPoints\":100,\"executable\":\"python\",\"pythonwd\":\"\"}",
+    "command": "python /usr/share/codio/assessments/assessments.py",
+    "guidance": "answer and rationale",
+    "instructions": "run",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [
+        "pythonfolder/__init__.py",
+        "pythonfolder/calc.py",
+        "pythonfolder/utest_calc_failed.py",
+        "pythonfolder/utest_calc_ok.py",
+        "calc.py",
+        "utest_calc_failed.py",
+        "utest_calc_ok.py"
+      ],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Advanced Code Test"
+        },
+        {
+          "name": "Content",
+          "value": "python utest"
+        },
+        {
+          "name": "Programming Language",
+          "value": "python"
+        }
+      ]
+    },
+    "name": "python unit test four files partial",
+    "oneTimeTest": false,
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true,
+    "timeoutSeconds": 300
+  },
+  "taskId": "test-3522709050",
+  "type": "test"
+}

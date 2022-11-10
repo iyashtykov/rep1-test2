@@ -1,0 +1,38 @@
+{
+  "source": {
+    "bloomsObjectiveLevel": "3",
+    "grader": "3",
+    "guidance": "answer and rationale",
+    "initial": "def find_largest(a, b, c):\nif \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e \u003e \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e:\nif \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e \u003e \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e:\nreturn \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e\nelse:\nreturn \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e\nelif \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e \u003e \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e:\nreturn \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e\nelse:\nreturn \u003cspan class='jsparson-toggle' data-type='abc'\u003e\u003c/span\u003e\n            ",
+    "instructions": "Construct a function which returns the largest of the three given arguments.\n                  You can change the value of a toggleable element (\u003cspan class=\"jsparson-toggle\"\u003e\u003c/span\u003e) by clicking.",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Parsons Puzzle"
+        },
+        {
+          "name": "Content",
+          "value": "parsons"
+        },
+        {
+          "name": "Programming Language",
+          "value": "parsons"
+        }
+      ]
+    },
+    "name": "unit tests grader 1",
+    "oneTimeTest": false,
+    "options": "{\n                            \"sortableId\": \"sortable\",                        \n                                    \"unittests\": \"import unittestparson\\nclass myTests(unittestparson.unittest):\\n  def testOne(self):\\n    self.assertEqual(find_largest(0, 2, 4),4,\\\"Calling function \u003ccode\u003efind_largest(0, 2, 4)\u003c/code\u003e.\\\")\\n    self.assertEqual(find_largest(4, 2, 4),4,\\\"Calling function \u003ccode\u003efind_largest(4, 2, 4)\u003c/code\u003e.\\\")\\n    self.assertEqual(find_largest(-5, -1, -4),-1,\\\"Calling function \u003ccode\u003efind_largest(-5, -1, -4)\u003c/code\u003e.\\\")\\n    self.assertEqual(find_largest(7, 2, 4),7,\\\"Calling function \u003ccode\u003efind_largest(7, 2, 4)\u003c/code\u003e.\\\")\\n_test_result = myTests().main()\",\n                                    \"toggleTypeHandlers\": {\"abc\": [\"a\", \"b\", \"c\"]}\n                        }",
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true
+  },
+  "taskId": "parsons-puzzle-2243390891",
+  "type": "parsons-puzzle"
+}

@@ -16,7 +16,7 @@ jobs:
         run: sudo apt install zstd
 
       - name: Publish assessments to assessment library
-        uses: codio/codio-assessment-publish-action@39232fb1697771b2242fd41439653aa23c369b03
+        uses: codio/codio-assessments-publish-action@39232fb1697771b2242fd41439653aa23c369b03
         with:
           # token: api-token
           library-id: bd8cc78a-631d-41eb-a5fc-d5374d6a920d

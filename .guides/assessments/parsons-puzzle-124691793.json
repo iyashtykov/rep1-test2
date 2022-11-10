@@ -1,38 +1,38 @@
 {
-  "source": {
-    "bloomsObjectiveLevel": "1",
-    "grader": "1",
-    "guidance": "answer and rationale",
-    "initial": "def is_true(boolean_value):\n  if boolean_value:\n    return True\n  return False\n  return true #distractor\n            ",
-    "instructions": "\u003cp\u003eConstruct a function by drag\u0026amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed function should return True if the parameter is True and\n                        return False otherwise.\u003c/p\u003e\n                    \u003cp\u003e\u003cstrong\u003eNote:\u003c/strong\u003e The correct solution is obviously a dumb way to do\n                        it. This exercise is merely trying to give an example of a Parson's\n                        puzzle with js-parsons, not teach you Python :)\u003c/p\u003e",
-    "learningObjectives": "",
-    "metadata": {
-      "files": [],
-      "opened": [],
-      "tags": [
-        {
-          "name": "Assessment Type",
-          "value": "Parsons Puzzle"
-        },
-        {
-          "name": "Content",
-          "value": "parsons"
-        },
-        {
-          "name": "Programming Language",
-          "value": "parsons"
-        }
-      ]
-    },
-    "name": "line based grader",
-    "oneTimeTest": false,
-    "options": "{\n              \n              \"trashId\": \"sortableTrash\",\n              \"max_wrong_lines\": 1\n            }",
-    "points": 100,
-    "showGuidanceAfterResponseOption": {
-      "type": "Never"
-    },
-    "showName": true
-  },
-  "taskId": "parsons-puzzle-124691793",
-  "type": "parsons-puzzle"
+	"source": {
+		"name": "line based grader",
+		"showName": true,
+		"instructions": "<p>Construct a function by drag&amp;dropping and reordering lines from the\n                        left to the right.\n                        The constructed function should return True if the parameter is True and\n                        return False otherwise.</p>\n                    <p><strong>Note:</strong> The correct solution is obviously a dumb way to do\n                        it. This exercise is merely trying to give an example of a Parson's\n                        puzzle with js-parsons, not teach you Python :)</p>",
+		"initial": "def is_true(boolean_value):\n  if boolean_value:\n    return True\n  return False\n  return true #distractor\n            ",
+		"options": "{\"trashId\":\"sortableTrash\",\"max_wrong_lines\":1}",
+		"grader": "1",
+		"guidance": "answer and rationale",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				},
+				{
+					"name": "Content",
+					"value": "parsons"
+				},
+				{
+					"name": "Programming Language",
+					"value": "parsons"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "learning"
+	},
+	"taskId": "parsons-puzzle-124691793",
+	"type": "parsons-puzzle"
 }

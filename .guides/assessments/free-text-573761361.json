@@ -1,46 +1,54 @@
 {
-  "source": {
-    "arePartialPointsAllowed": true,
-    "bloomsObjectiveLevel": "",
-    "guidance": "answer and rationale",
-    "instructions": "run",
-    "learningObjectives": "",
-    "maxAttemptsCount": 5,
-    "metadata": {
-      "files": [],
-      "opened": [],
-      "tags": [
-        {
-          "name": "Assessment Type",
-          "value": "Free Text"
-        }
-      ]
-    },
-    "name": "free text with predefined rubrics",
-    "points": 100,
-    "previewType": "NONE",
-    "rubrics": [
-      {
-        "id": "16578323-24c3-9bc1-e1b4-3e92e290b3d7",
-        "message": "-10 predefined points in free text",
-        "weight": 10
-      },
-      {
-        "id": "45f0d96e-3c02-8591-c4b6-cd58bd65471d",
-        "message": "-20 predefined points in free text",
-        "weight": 20
-      },
-      {
-        "id": "67f42e77-431a-6a27-92b2-636cba3e5b3f",
-        "message": "-30 predefined points in free text",
-        "weight": 30
-      }
-    ],
-    "showGuidanceAfterResponseOption": {
-      "type": "Never"
-    },
-    "showName": true
-  },
-  "taskId": "free-text-573761361",
-  "type": "free-text"
+	"source": {
+		"name": "free text with predefined rubrics",
+		"showName": true,
+		"instructions": "run",
+		"guidance": "answer and rationale",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 5,
+		"previewType": "NONE",
+		"arePartialPointsAllowed": true,
+		"points": 100,
+		"rubrics": [
+			{
+				"id": "16578323-24c3-9bc1-e1b4-3e92e290b3d7",
+				"weight": 10,
+				"message": "-10 predefined points in free text"
+			},
+			{
+				"id": "45f0d96e-3c02-8591-c4b6-cd58bd65471d",
+				"weight": 20,
+				"message": "-20 predefined points in free text"
+			},
+			{
+				"id": "67f42e77-431a-6a27-92b2-636cba3e5b3f",
+				"weight": 30,
+				"message": "-30 predefined points in free text"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text"
+				},
+				{
+					"name": "Content",
+					"value": "content"
+				},
+				{
+					"name": "Programming Language",
+					"value": "language"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "learning"
+	},
+	"taskId": "free-text-573761361",
+	"type": "free-text"
 }

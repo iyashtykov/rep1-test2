@@ -1,81 +1,86 @@
 {
-  "source": {
-    "bloomsObjectiveLevel": "",
-    "guidance": "answer and rationale",
-    "instructions": "run",
-    "learningObjectives": "",
-    "metadata": {
-      "files": [
-        "file.js"
-      ],
-      "opened": [
-        {
-          "content": "file.js",
-          "panelNumber": 0,
-          "type": "file"
-        }
-      ],
-      "tags": [
-        {
-          "name": "Assessment Type",
-          "value": "Fill in the Blanks"
-        }
-      ]
-    },
-    "name": "fib regex",
-    "points": 100,
-    "showExpectedAnswer": true,
-    "showGuidanceAfterResponseOption": {
-      "type": "Never"
-    },
-    "showName": true,
-    "showValues": false,
-    "text": "color or colour - \u003c\u003c\u003c/colou?r/\u003e\u003e\u003e\nfrom 1 to 100 - \u003c\u003c\u003c/^([1-9][0-9]?|100)$/\u003e\u003e\u003e\ngmail check - \u003c\u003c\u003c/(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/\u003e\u003e\u003e\nstart from word \"begin\" - \u003c\u003c\u003c/^begin/\u003e\u003e\u003e\nends with word \"end\" - \u003c\u003c\u003c/end$/\u003e\u003e\u003e ",
-    "tokens": {
-      "blank": [
-        {
-          "type": "regEx",
-          "value": "/colou?r/"
-        },
-        {
-          "type": "regEx",
-          "value": "/^([1-9][0-9]?|100)$/"
-        },
-        {
-          "type": "regEx",
-          "value": "/(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/"
-        },
-        {
-          "type": "regEx",
-          "value": "/^begin/"
-        },
-        {
-          "type": "regEx",
-          "value": "/end$/"
-        }
-      ],
-      "regexPositions": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
-      "text": [
-        "color or colour - ",
-        0,
-        "\nfrom 1 to 100 - ",
-        0,
-        "\ngmail check - ",
-        0,
-        "\nstart from word \"begin\" - ",
-        0,
-        "\nends with word \"end\" - ",
-        0,
-        " "
-      ]
-    }
-  },
-  "taskId": "fill-in-the-blanks-1045584002",
-  "type": "fill-in-the-blanks"
+	"source": {
+		"name": "fib regex",
+		"showName": true,
+		"instructions": "run",
+		"showValues": false,
+		"text": "color or colour - <<</colou?r/>>>\nfrom 1 to 100 - <<</^([1-9][0-9]?|100)$/>>>\ngmail check - <<</(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/>>>\nstart from word \"begin\" - <<</^begin/>>>\nends with word \"end\" - <<</end$/>>> ",
+		"distractors": "",
+		"guidance": "answer and rationale",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 100,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "content"
+				},
+				{
+					"name": "Programming Language",
+					"value": "language"
+				}
+			],
+			"files": [
+				"file.js"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "learning",
+		"tokens": {
+			"blank": [
+				{
+					"type": "regEx",
+					"value": "/colou?r/"
+				},
+				{
+					"type": "regEx",
+					"value": "/^([1-9][0-9]?|100)$/"
+				},
+				{
+					"type": "regEx",
+					"value": "/(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/"
+				},
+				{
+					"type": "regEx",
+					"value": "/^begin/"
+				},
+				{
+					"type": "regEx",
+					"value": "/end$/"
+				}
+			],
+			"text": [
+				"color or colour - ",
+				0,
+				"\nfrom 1 to 100 - ",
+				0,
+				"\ngmail check - ",
+				0,
+				"\nstart from word \"begin\" - ",
+				0,
+				"\nends with word \"end\" - ",
+				0,
+				" "
+			],
+			"regexPositions": [
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-1045584002",
+	"type": "fill-in-the-blanks"
 }

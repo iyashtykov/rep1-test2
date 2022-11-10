@@ -16,8 +16,7 @@ jobs:
         run: sudo apt install zstd
 
       - name: Publish assessments to assessment library
-        uses: codio/codio-assessments-publish-action@master
-        # uses: codio/codio-assessments-publish-action@88a108ab0e639b1d2f5011b7a7d0597f5275030f
+        uses: codio/codio-assessments-publish-action@88a108ab0e639b1d2f5011b7a7d0597f5275030f
         with:
           client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
           secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}

@@ -10,15 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     
-      - uses: actions/checkout@v2
-
-      - name: Log into Codio
-        id: codio-login
-        uses: codio/codio-auth-action@master
-        with:
-        # Use the ID's from the secrets below
-          client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
-          secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
+      - uses: actions/checkout@v2  
 
       - name: Install zstd
         run: sudo apt install zstd
@@ -26,7 +18,8 @@ jobs:
       - name: Publish assessments to assessment library
         uses: codio/codio-assessments-publish-action@88a108ab0e639b1d2f5011b7a7d0597f5275030f
         with:
-          token: ${{ steps.codio-login.outputs.token }}
+          client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
+          secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}
           library-id: bd8cc78a-631d-41eb-a5fc-d5374d6a920d
           dir: ./                       
           domain: test2-codio.com

@@ -1,0 +1,26 @@
+name: codio-assessments-publish
+on:
+  push:
+    branches:
+      - guides_v3
+
+jobs:
+
+  publish: 
+    runs-on: ubuntu-20.04
+    steps:
+    
+      - uses: actions/checkout@v2
+
+      - name: Install zstd
+        run: sudo apt install zstd
+
+      - name: Publish assessments to assessment library
+        uses: codio/codio-assessment-publish-action@39232fb1697771b2242fd41439653aa23c369b03
+        with:
+          # token: api-token
+          library-id: bd8cc78a-631d-41eb-a5fc-d5374d6a920d
+          dir: ./       
+          client-id: ${{ secrets.CODIO_DEMO_CLIENT_ID }}
+          secret-id: ${{ secrets.CODIO_DEMO_SECRET_ID }}                 
+          domain: test2-codio.com

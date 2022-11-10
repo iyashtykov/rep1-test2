@@ -32,6 +32,10 @@
 			"files": [
 				"file.js"
 			],
+			"layout": "2-panels-tree",
+			"pageTitle": "fibs",
+			"buttonText": "Check It!",
+			"content": "\n\n<<<<<library-assessment>>>>>\n",
 			"opened": []
 		},
 		"bloomsObjectiveLevel": "3",
@@ -82,5 +86,8 @@
 		}
 	},
 	"taskId": "fill-in-the-blanks-1045584002",
-	"type": "fill-in-the-blanks"
+	"type": "fill-in-the-blanks",
+	"linkedId": "cf4bc902-89cd-4843-b2f3-651f448b8826",
+	"libraryId": "7786d577-e05a-45f8-8eaa-e31842811b41",
+	"version": 0
 }

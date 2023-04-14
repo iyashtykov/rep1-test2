@@ -1,0 +1,47 @@
+{
+	"source": {
+		"name": "gradebook3 with predefined rubrics",
+		"showName": true,
+		"points": 100,
+		"arePartialPointsAllowed": true,
+		"rubrics": [
+			{
+				"id": "fae170fa-2d0b-912e-2381-5941c9aa8c96",
+				"weight": 5,
+				"message": "-5 predefined points in gradebook"
+			},
+			{
+				"id": "7efcdd4a-d3e4-8f0b-2831-42e04cd1b52f",
+				"weight": 15,
+				"message": "-15 predefined points in gradebook"
+			},
+			{
+				"id": "708ce97f-dcda-4f14-a72a-e403cbca14bf",
+				"weight": 25,
+				"message": "-25 predefined points in gradebook"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Grade Book"
+				},
+				{
+					"name": "Content",
+					"value": "content"
+				},
+				{
+					"name": "Programming Language",
+					"value": "language"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "learning"
+	},
+	"taskId": "grade-book-3769268793",
+	"type": "grade-book"
+}

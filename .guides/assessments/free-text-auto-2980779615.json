@@ -1,0 +1,41 @@
+{
+	"source": {
+		"name": "free text auto partial v2",
+		"showName": true,
+		"instructions": "run",
+		"command": "python freetextauto_partial_v2.py",
+		"timeoutSeconds": 40,
+		"guidance": "answer and rationale",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 5,
+		"arePartialPointsAllowed": true,
+		"previewType": "NONE",
+		"points": 100,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "content"
+				},
+				{
+					"name": "Programming Language",
+					"value": "language"
+				}
+			],
+			"files": [
+				"file.js"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "learning"
+	},
+	"taskId": "free-text-auto-2980779615",
+	"type": "free-text-auto"
+}

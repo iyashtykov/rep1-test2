@@ -1,0 +1,83 @@
+{
+	"source": {
+		"name": "standard partial inputs in output",
+		"showName": true,
+		"instructions": "run",
+		"command": "python standard_partial_inputcommands.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": false,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "answer and rationale",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": true,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "input1\ninput2",
+				"output": "input1\ninput2",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "input1\ninput2\ninput3",
+				"output": "input1\ninput2",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "input1\ninput2\ninput3",
+				"output": "input1\ninput2\ninput3",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "input1\ninput2\ninput3",
+				"output": "input1\ninput2\ninput3",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "input1\ninput2\ninput3",
+				"output": "input1\ninput2\ninput3",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "content"
+				},
+				{
+					"name": "Programming Language",
+					"value": "language"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "learning"
+	},
+	"taskId": "code-output-compare-3689217873",
+	"type": "code-output-compare"
+}

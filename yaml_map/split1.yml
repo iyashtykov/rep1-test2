@@ -1,0 +1,12 @@
+- assignmentName: assignment1
+  paths: 
+    - calc.py
+    - source: spec
+      destination: specfolder
+  section: ['c1', 's1', 's1.1', 's1.1.1']
+
+# - assignment: d0974ea6557b23b9c6715b50bbbc04fc
+- assignmentName: assignment1
+  paths: ['javafolder/**', 'rubyfolder/**']
+  section: ['chapter', 'section', 'page']
+

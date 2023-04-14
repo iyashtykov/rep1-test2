@@ -1,0 +1,38 @@
+{
+  "source": {
+    "arePartialPointsAllowed": true,
+    "bloomsObjectiveLevel": "",
+    "command": "python txt_partial_v2.py",
+    "guidance": "answer and rationale",
+    "instructions": "run",
+    "learningObjectives": "",
+    "metadata": {
+      "files": [
+        "file.js"
+      ],
+      "opened": [
+        {
+          "content": "file.js",
+          "panelNumber": 0,
+          "type": "file"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Advanced Code Test"
+        }
+      ]
+    },
+    "name": "advanced code test txt partial v2",
+    "oneTimeTest": false,
+    "points": 100,
+    "showGuidanceAfterResponseOption": {
+      "type": "Never"
+    },
+    "showName": true,
+    "timeoutSeconds": 40
+  },
+  "taskId": "test-287466350",
+  "type": "test"
+}

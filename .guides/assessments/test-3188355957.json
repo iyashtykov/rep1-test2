@@ -1,0 +1,41 @@
+{
+	"source": {
+		"name": "java style one case ok",
+		"showName": true,
+		"instructions": "test",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"style\",\"files\":[\"javafolder/JavaClassStyleOk1.java\"],\"maxPoints\":100,\"configFile\":\"\"}",
+		"timeoutSeconds": 300,
+		"guidance": "answer and rationale",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 100,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "java style"
+				},
+				{
+					"name": "Programming Language",
+					"value": "java"
+				}
+			],
+			"files": [
+				"javafolder/JavaClassStyleOk1.java"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "learning"
+	},
+	"taskId": "test-3188355957",
+	"type": "test"
+}

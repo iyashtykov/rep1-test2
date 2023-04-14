@@ -1,0 +1,72 @@
+{
+  "source": {
+    "arePartialPointsAllowed": false,
+    "bloomsObjectiveLevel": "4",
+    "command": "python allsymbols.py",
+    "guidance": "answer and rationale",
+    "instructions": "run",
+    "learningObjectives": "learning",
+    "maxAttemptsCount": 5,
+    "metadata": {
+      "files": [
+        "file.js",
+        "allsymbols.py"
+      ],
+      "opened": [],
+      "tags": [
+        {
+          "name": "Assessment Type",
+          "value": "Standard Code Test"
+        },
+        {
+          "name": "Content",
+          "value": "code test"
+        },
+        {
+          "name": "Programming Language",
+          "value": "python"
+        }
+      ]
+    },
+    "name": "standard code test all symbols in output",
+    "options": {
+      "ignoreCase": true,
+      "ignoreNewline": true,
+      "ignoreWhitespaces": true,
+      "matchSubstring": false,
+      "timeout": 30
+    },
+    "points": 100,
+    "preExecuteCommand": "sleep 1",
+    "sequence": [
+      {
+        "arguments": "",
+        "feedback": "error feedback1",
+        "input": "",
+        "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^\u0026*()_-=+\u003c\u003e,./?|[]{};:~`\\",
+        "showFeedback": true
+      },
+      {
+        "arguments": "1 2 3",
+        "feedback": "error feedback2",
+        "input": "",
+        "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^\u0026*()_-=+\u003c\u003e,./?|[]{};:~`\\",
+        "showFeedback": true
+      },
+      {
+        "arguments": "",
+        "feedback": "error feedback3",
+        "input": "input1\ninput2",
+        "output": "qwertyuiopasdfghjklzxcvbnm!@#$%^\u0026*()_-=+\u003c\u003e,./?|[]{};:~`\\",
+        "showFeedback": true
+      }
+    ],
+    "showExpectedAnswer": true,
+    "showGuidanceAfterResponseOption": {
+      "type": "Always"
+    },
+    "showName": true
+  },
+  "taskId": "code-output-compare-272921492",
+  "type": "code-output-compare"
+}

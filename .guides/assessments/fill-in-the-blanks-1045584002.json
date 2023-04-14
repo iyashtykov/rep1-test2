@@ -1,0 +1,93 @@
+{
+	"source": {
+		"name": "fib regex",
+		"showName": true,
+		"instructions": "run",
+		"showValues": false,
+		"text": "color or colour - <<</colou?r/>>>\nfrom 1 to 100 - <<</^([1-9][0-9]?|100)$/>>>\ngmail check - <<</(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/>>>\nstart from word \"begin\" - <<</^begin/>>>\nends with word \"end\" - <<</end$/>>> ",
+		"distractors": "",
+		"guidance": "answer and rationale",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 100,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "content"
+				},
+				{
+					"name": "Programming Language",
+					"value": "language"
+				}
+			],
+			"files": [
+				"file.js"
+			],
+			"layout": "2-panels-tree",
+			"pageTitle": "fibs",
+			"buttonText": "Check It!",
+			"content": "\n\n<<<<<library-assessment>>>>>\n",
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "learning",
+		"tokens": {
+			"blank": [
+				{
+					"type": "regEx",
+					"value": "/colou?r/"
+				},
+				{
+					"type": "regEx",
+					"value": "/^([1-9][0-9]?|100)$/"
+				},
+				{
+					"type": "regEx",
+					"value": "/(\\W|^)[\\w.\\-]{0,25}@(gmail)\\.com(\\W|$)/"
+				},
+				{
+					"type": "regEx",
+					"value": "/^begin/"
+				},
+				{
+					"type": "regEx",
+					"value": "/end$/"
+				}
+			],
+			"text": [
+				"color or colour - ",
+				0,
+				"\nfrom 1 to 100 - ",
+				0,
+				"\ngmail check - ",
+				0,
+				"\nstart from word \"begin\" - ",
+				0,
+				"\nends with word \"end\" - ",
+				0,
+				" "
+			],
+			"regexPositions": [
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-1045584002",
+	"type": "fill-in-the-blanks",
+	"linkedId": "cf4bc902-89cd-4843-b2f3-651f448b8826",
+	"libraryId": "7786d577-e05a-45f8-8eaa-e31842811b41",
+	"version": 0
+}

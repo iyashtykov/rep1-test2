@@ -1,0 +1,29 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Code-tests-d101",
+		"Free-texts-1c3f",
+		"Others-ab2e",
+		"simple-page-d39c",
+		"-------------4528",
+		"-----------------842c",
+		"example-page-e038",
+		"chapter-4d8b",
+		"New-0b55",
+		"simple-section-4cfe",
+		"simple-chapter-168c",
+		"c1-93e1"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "rep1",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}
